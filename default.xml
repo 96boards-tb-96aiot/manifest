@@ -8,7 +8,7 @@
 
 <project name="external-RKNPUTools" path="external/RKNPUTools" revision="master" remote = "beiqi"/>
   <project name="u-boot" path="u-boot" revision="90a8d4436c3a92cdad55cacda5a86e5b739628d5" upstream="master"/>
-  <project name="linux-buildroot-dl" path="buildroot/dl" revision="ddfbe30ea232f63b2080e85907ec308ad913e43e" remote="beiqi" upstream="master"/>
+  <project name="linux-buildroot-dl" path="buildroot/dl" revision="master" remote="beiqi"/>
   <project name="device-custom" path="device/rockchip" revision="c9c4e1c2f020e41cc87a809c5bbb9aba73c16df0" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
@@ -22,7 +22,7 @@
  <project name="alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
   <project name="audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="bluez-alsa" path="external/bluez-alsa" revision="beec0074dec60a0b031e0b36321139da69788774" upstream="master"/>
-  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="888093f5a734a00643deb0ddea006b79c9fe4d4f" upstream="master"/>
+  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="dda810906abb396d0bf3a562186a9711bd52fc19" upstream="master"/>
    <project name="minigui" path="external/minigui" revision="935476e2917c31cb861baf14e98ada313be64e14" upstream="master"/>
 
 <project name="external-mpv" path="external/mpv" remote = "beiqi" revision="master" />  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
@@ -49,7 +49,7 @@ revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
   <project name="kernel" path="kernel" remote="beiqi" revision="master"/>
-  <project name="mpp" path="external/mpp" revision="38eaa92f6337b9300f74855fde76ef73558b69d7" upstream="develop"/>
+  <project name="mpp" path="external/mpp" revision="38eaa92f6337b9300f74855fde76ef73558b69d7" upstream="master"/>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
   <project name="buildroot" path="buildroot" remote="beiqi" revision="master" >
     <linkfile dest="Makefile" src="build/Makefile"/>
