@@ -22,7 +22,7 @@
  <project name="alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
   <project name="audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
   <project name="bluez-alsa" path="external/bluez-alsa" revision="beec0074dec60a0b031e0b36321139da69788774" upstream="master"/>
-  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="dda810906abb396d0bf3a562186a9711bd52fc19" upstream="master"/>
+  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="888093f5a734a00643deb0ddea006b79c9fe4d4f" upstream="master"/>
    <project name="minigui" path="external/minigui" revision="935476e2917c31cb861baf14e98ada313be64e14" upstream="master"/>
 
 <project name="external-mpv" path="external/mpv" remote = "beiqi" revision="master" />  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
