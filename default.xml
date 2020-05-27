@@ -7,7 +7,7 @@
 
 
 <project name="external-RKNPUTools" path="external/RKNPUTools" revision="master" remote = "beiqi"/>
-  <project name="u-boot" path="u-boot" revision="90a8d4436c3a92cdad55cacda5a86e5b739628d5" upstream="master"/>
+  <project name="u-boot" path="u-boot" revision="9879daf185dd6f95d99d960d30476861c06ca4bf" upstream="master"/>
   <project name="linux-buildroot-dl" path="buildroot/dl" revision="master" remote="beiqi"/>
   <project name="device-custom" path="device/rockchip" revision="c9c4e1c2f020e41cc87a809c5bbb9aba73c16df0" upstream="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
@@ -18,30 +18,41 @@
   <project name="docs" path="docs" revision="c46a79575476fb0f40df86db1ba467e0c4d4be3a" upstream="master"/>
   <project name="QLauncher" path="app/QLauncher" revision="d131e2d41101d967bdd2c1bbb8d523073c4d3f02" upstream="develop"/>
  
-<project name="linux-app-demo" path="app/demo" revision="f65a5d17c7639ccec0b6b01fa2f282e94e9bc41d" remote="beiqi" upstream="master"/>
- <project name="alsa-config" path="external/alsa-config" revision="5a80dbcff93b5db40310910835649277f60048c4" upstream="master"/>
-  <project name="audioservice" path="external/audioservice" revision="ec7efbf4cbb023a655228a1260fb83258fd667c1" upstream="master"/>
-  <project name="bluez-alsa" path="external/bluez-alsa" revision="beec0074dec60a0b031e0b36321139da69788774" upstream="master"/>
-  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="888093f5a734a00643deb0ddea006b79c9fe4d4f" upstream="master"/>
-   <project name="minigui" path="external/minigui" revision="935476e2917c31cb861baf14e98ada313be64e14" upstream="master"/>
+<project name="linux-app-demo" path="app/demo" remote="beiqi" upstream="master"/>
+  <project name="face_detect" path="app/face_detect" revision="6c5631e2d192ea0d9f60a16977923b26ad5c7b0d" remote="beiqi" upstream="master"/>
+  <project name="ficial_gate" path="app/ficial_gate" revision="c70f22da5ee0f57cf1af95c5ba3e6d8b9e7e98a7" remote="beiqi" upstream="master"/>
+  <project name="pose_body" path="app/pose_body" revision="4666cd40f84c7d6b88ea1cb4edeb5c3d7c0388b4" remote="beiqi" upstream="master"/>
+  <project name="qcamera" path="app/qcamera" revision="fc17cb9ac199095303f45aa27c59b0c901c0478b" remote="beiqi" upstream="master"/>
+  <project name="qfm" path="app/qfm" revision="cb38ba939c7ebdb1d205b68290754a115269c7e4" remote="beiqi" upstream="master"/>
+  <project name="qplayer" path="app/qplayer" revision="eb806f4d2da10181d177483f441a51f8488a957a" remote="beiqi" upstream="master"/>
+  <project name="qsetting" path="app/qsetting" revision="5bc5db6ba0b231718603860fa7bc803c9bbcf155" remote="beiqi" upstream="master"/>
+
+ <project name="alsa-config" path="external/alsa-config" revision="566e426dc0c569c8899bf35553f11f5d638d7d1c" upstream="master"/>
+  <project name="audioservice" path="external/audioservice" revision="68fa86817d762d4b761add42dcd03abe746bea61" upstream="master"/>
+  <project name="bluez-alsa" path="external/bluez-alsa" revision="514a57b440a9467400e3c5fd164df719f2fc79ee" upstream="master"/>
+  <project name="broadcom_bsa" path="external/broadcom_bsa" revision="9cd208a2d6a2e2e5d7414f625bcd655819e20e29" remote="beiqi" upstream="master"/>
+  <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="3bd891845dc42c4afa31b135723a7f364a3765f8" upstream="master"/>
+   <project name="minigui" path="external/minigui" revision="ffca4e70c9b302ee879ccf7e9cbff71f834d6d5d" upstream="96board"/>
 
 <project name="external-mpv" path="external/mpv" remote = "beiqi" revision="master" />  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="25643cf5f522a71ed2a918b0abe15e363a893504" upstream="master"/>
 
 <project name="external-media" path="external/media"
 remote = "beiqi" revision="master" />
-  <project name="rknpu" path="external/rknpu" revision="3043beb8be4e39199f29411446d1cd2b4e712b72" upstream="master"/>
-  <project name="rknn_demo" path="external/rknn_demo" revision="b7bda09edf40ec5e4b4c2341f99d7a5dbaa71b37" upstream="master"/>
+  <project name="rknpu" path="external/rknpu" revision="1121c481b6fcff3f5b9982259192089c03c63725" upstream="master"/>
+  <project name="rknn_demo" path="external/rknn_demo" revision="b69176e27f21aaaadf53c9809631448edbc60868" upstream="96board"/>
   <project name="rkupdate" path="external/rkupdate" 
 revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
-  <project name="rkwifibt" path="external/rkwifibt" revision="429b6868e58a59abee6b84a78e81ffc5c502d7fd" upstream="master"/>
-  <project name="rkscript" path="external/rkscript" revision="00794eb93c999efaaccc407a5afaccbffd64c93b" upstream="master"/>
+  <project name="rkwifibt" path="external/rkwifibt" revision="5b8a34dcc21b465445a007ad4bc45c1770b73a1c" upstream="master"/>
+  <project name="rkscript" path="external/rkscript" revision="323a1f19975536890f42b82847afdfabb3a9948b" upstream="master"/>
+ <project name="external/rockface" path="external/rockface" revision="a4ef58f3ee50985cdbb295d160f33f0688a459b0" remote="beiqi" upstream="master"/>
+
 
 <project name="external-update_engine" path="external/update_engine" revision="master" remote="beiqi"/>
-  <project name="uvc_app" path="external/uvc_app" revision="431b988a95afc512700147dc9296fb9e71a84b99" upstream="master"/>
+  <project name="uvc_app" path="external/uvc_app" revision="91789f67aa83a4be0d4b8f663159183ac8623337" upstream="master"/>
   <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="c927a1d1d7cf4e6a0becbbc1a2b7b593b0c07396" upstream="master"/>
-  <project name="linux-rga" path="external/linux-rga" revision="29235b16ed7f94a8b4c754fe083782121d350799" upstream="master"/>
-  <project name="recovery" path="external/recovery" revision="1aaf48aa6512ff7c988bed6493c7526adabd9169" upstream="master"/>
-  <project name="tools" path="tools" revision="4c417796e3d45b926124cdf4613ba25f1ee25832" upstream="master">
+  <project name="linux-rga" path="external/linux-rga" revision="72e7764a9fe358e6ad50eb1b21176cc95802c7fb" upstream="master"/>
+  <project name="recovery" path="external/recovery" revision="c36e724936464867f470c86135f436e80a9f57a1" upstream="master"/>
+  <project name="tools" path="tools" revision="31fa5fd23eb4bc3c4ffe9ac55e49d50e541ab042" upstream="master">
     <linkfile dest="tools/windows/AndroidTool/AndroidTool_Release/config.cfg" src="windows/AndroidTool/AndroidTool_Release/rk1808-config.cfg"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/package-file" src="windows/AndroidTool/rockdev/rk1808-package-file"/>
     <linkfile dest="tools/windows/AndroidTool/rockdev/mkupdate.bat" src="windows/AndroidTool/rockdev/rk1808-mkupdate.bat"/>
@@ -49,12 +60,12 @@ revision="40b9c1ed1f69b90e97986d41b8270dc3c8042479" upstream="master"/>
     <linkfile dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file" src="linux/Linux_Pack_Firmware/rockdev/rk1808-package-file"/>
   </project>
   <project name="kernel" path="kernel" remote="beiqi" revision="master"/>
-  <project name="mpp" path="external/mpp" revision="38eaa92f6337b9300f74855fde76ef73558b69d7" upstream="master"/>
+  <project name="mpp" path="external/mpp" revision="7c26b23bac7737d62631077748bf19bf78bad9e6" upstream="master"/>
   <project name="gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="master"/>
-  <project name="buildroot" path="buildroot" remote="beiqi" revision="master" >
+  <project name="buildroot" path="buildroot" remote="beiqi" revision="96board" >
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="rkbin" path="rkbin" revision="0021b7356538654b099be1cf5a41545c2a688755" upstream="master"/>
-  <project name="rknn-toolkit" path="external/rknn-toolkit" revision="6c017fdb6f6264116781058d8bf0a093e796832a" upstream="master"/>
+  <project name="rkbin" path="rkbin" revision="67a9f9603990b90492408f5319f637a4ede059b8" upstream="master"/>
+  <project name="rknn-toolkit" path="external/rknn-toolkit" revision="290123ad2d1066a1a386f6aaf873d34a363e9d12" upstream="master"/>
 </manifest>
